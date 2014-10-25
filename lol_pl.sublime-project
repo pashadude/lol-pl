@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+    "settings":
+    {
+        "xdebug": {
+            "url": "http://localhost/lol_pl/index.php",
+            "ide_key": "sublime.xdebug",
+            "port": 9000,
+            "super_globals": true,
+            "close_on_stop": true
+        }
+    }
+
+
+  
+}
