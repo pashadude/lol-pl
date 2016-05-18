@@ -4,7 +4,7 @@ include 'leaguewrap-master/vendor/autoload.php';
 use \LeagueWrap\Api;
 
 
-$myKey    = "907b1649-4946-43bf-afb7-90456bd917fb"; 
+$myKey    = "....put your key here"; 
 
 function getPlayerStats ($nickname,$region,$key,$mode){
 	$api = new Api($key);
@@ -76,7 +76,7 @@ function CheckMatch ($match) {
 		$k = count($unchecked);
         $r = mt_rand(0,$k - 1);
 		//print_r($unchecked);
-		$key = "907b1649-4946-43bf-afb7-90456bd917fb"; 
+		$key = "... put your key here"; 
 		$api = new Api($key);
 		$api->setRegion('eune');
 		$games = $api->game();
